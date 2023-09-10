@@ -4,82 +4,69 @@
     box-sizing :border-box ;
 }
 body {
-    background-color :darkmagenta;
-    color :white ;
+    background-color :#ff69408c;
+    color :black ;
     text-align :center ;
-    font-family :Red hat display,Gill Sans Extrabold;
-    width :300px ;
-    height:400px;
-}
-#slackUserName{
-    margin-top :20px ;
-    margin-bottom :10px ;
-    font-size :20px ;
-}
-#slackDisplayImage img{
-    border-radius :75px;
-    margin-bottom :10px ;
-}
-#myTrack{
-    font-size :15px ;
-    margin-bottom :35px;
-}
-#currentDayOfTheWeek{
-    font-family :Hervetica sans-serif;
-    font-size :30px ;
-    margin-bottom :10px ;
-    font-weight :bold ;
-    letter-spacing:3px;
-    margin-top :15px;
-}
-#currentUTCTime{
-    position :relative ;
-    font-width:100px;
-    letter-spacing:3px;
-}
-#githubURL a{
-    text-decoration :none ;
-    color :white;
-}
-#githubURL {
-    background-color :black;
-    width:100px;
+    width:100%;
+    height:auto;
+    font-family:Red hat display,Gill Sans Extrabold ;
+ }
+.border{
+    width:90%;
+    border-radius:5%;
+    margin-bottom :30px ;
+    margin:30% auto;
+    height:auto;
     border:1px solid black;
-    padding:10px;
-    text-align :center ;
-    border-radius :10px ;
-    margin-left :100px ;
+    line-height:1;
+    background:grey;
+    padding:5%;
+} 
+.header {
+    margin-top :30px ;
+}
+img{
+    width:150px;
+    height :auto ;
+    border-radius :100%;
     margin-top :20px ;
+   
+}
+.head{
+    padding :5% 0;
+}
+.content {
+    font-size:20px ;
+    margin-bottom:10px ;
+    margin-top:10px ;
+    padding-bottom :5%;
+}
+.link {
+    text-decoration :none ;
+    color:black ;
+    font-size :1.5rem;
+   
 }
 @media(min-width:600px){
-    #slackUserName{
+    .header{
         font-size :45px;
         letter-spacing :4px ;
    }
-    #slackDisplayImage img{
-        width:60%;
+   img{
+        width:50%;
     }
-    #myTrack{
+    .head{
         font-size :40px;
     }
-    #currentDayOfTheWeek{
-        font-size :40px;
-        
-    }
-    #currentUTCTime h1{
-        width:100%;
-    }
+    .content{
+        font-size :25px ;
     body{
         width:100%;
         text-align :center ;
     }
-    #githubURL{
-       margin-left :35%;
-       margin-top:40px ;
-       padding:15px;
-       width:300px ;
-    }
-    #githubURL a{
-        font-size :40px ;
+    .link a{
+        font-size :30px ;
     }
 }
+
+
