@@ -2,27 +2,19 @@
 <html lang ="en">
     <head>
         <title>Frontend Page Creation With Specific Elements</title>
+        <meta charset ="UTF-8">
         <meta name ="viewport"content"width=device-width, initial-scale =1.0">
         <link rel ="stylesheet"href="style.css" type="text/css">
     </head>
     <body>
-        <div id="slackUserName">
-           <h2>Kosiso Anthony</h2> 
-        </div>
-        <div id="slackDisplayImage">
-            <img src="leoxavi.jpg" width="250px"alt="Kosiso Anthony">
-        </div>
-        <div id="myTrack">
-            <h2>Front-end Web Developer </h2>
-        </div>
-        <div id="currentDayOfTheWeek">
-            <h2>Sunday</h2>
-        </div>
-        <div style="font-size:50px"id="currentUTCTime"><h1></h1>
-                   </div>
-                   <div id="githubURL">
-                       <a href="https://github.com/Leoxaviii/Page-creation">GitHub</a>
-                   </div>
+        <div class="border">
+           <h1 class="header" data-testid="slackUserName">Kosiso Anthony</h1> 
+            <img class="img"data-testid ="slackDisplayImage"src="leoxavi.jpg"alt="Kosiso Anthony 1️⃣">
+            <h3 class="head"data-testid="myTrack ">FrontEnd</h3>
+            <p class="content"data-testid="currentDayOfTheWeek"></p>
+        <p class ="content"data-testid="currentUTCTime"></p>
+                       <a  class="link"data-testid="githubURL"href="https://github.com/Leoxaviii/Page-creation">GitHub Repository</a>
+                  </div>
      <script src ="script.js"></script>           
     </body>
 </html>
